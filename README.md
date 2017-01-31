@@ -285,6 +285,12 @@ db.departments.find().sort({name:-1})
 ```
 
 ## result
+```
+{ "_id" : ObjectId("58900d995e588439d57a99b8"), "code" : "MT001", "name" : "Multimedia Teknologi", "Major" : "Teknologi Komputer" }
+{ "_id" : ObjectId("58900d995e588439d57a99b5"), "code" : "SI001", "name" : "System Informasi & Akuntasi", "Major" : "Teknologi Komputer" }
+{ "_id" : ObjectId("58900d995e588439d57a99b6"), "code" : "SI002", "name" : "System Informasi & Matematika", "Major" : "Teknologi Komputer" }
+{ "_id" : ObjectId("58900d995e588439d57a99b7"), "code" : "IT001", "name" : "Teknik informatika", "Major" : "Teknologi Komputer" }
+```
 
 ## 14 Mencari data "students" dengan "name"
 ```
